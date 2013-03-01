@@ -71,7 +71,6 @@
                                     attributes:nil
                                          error:NULL];
         }
-        [fileManager release];
     });
 
     return cacheDirectory;
