@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author = 'Chris Streeter', 'chris@educreations.com'
   s.source = {
     :git => 'https://github.com/educreations/ECDataCache.git',
-    :commit => 'HEAD'
+    :tag => "#{s.version}"
   }
   s.platform = :ios, '5.0'
   s.source_files = 'ECDataCache.{h,m}'
