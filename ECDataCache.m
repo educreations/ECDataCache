@@ -63,7 +63,7 @@
         NSURL *url = [cacheURL URLByAppendingPathComponent:@"ECDataCache"
                                                isDirectory:YES];
 
-        cacheDirectory = [[url path] retain];
+        cacheDirectory = [url path];
 
         if (![fileManager fileExistsAtPath:cacheDirectory]) {
             [fileManager createDirectoryAtPath:cacheDirectory
