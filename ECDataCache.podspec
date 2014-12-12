@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ECDataCache'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.summary = 'A generic NSData cache for storing data to disk, which is backed by NSCache for in-memory data.'
   s.homepage = 'https://github.com/educreations/ECDataCache'
   s.license = {
